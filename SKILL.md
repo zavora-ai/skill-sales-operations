@@ -1,44 +1,9 @@
 ---
 name: sales-operations
 description: Orchestrate enterprise sales — create proposals, configure quotes (CPQ), manage outreach sequences, schedule meetings, track signatures, and forecast pipeline. Use when creating proposals, generating quotes, managing sales sequences, scheduling meetings, tracking e-signatures, analyzing win/loss, or forecasting revenue.
-version: "1.0.0"
 license: Apache-2.0
 compatibility: Requires mcp-sales server connected (PandaDoc, Apollo.io, Calendly, Stripe Billing).
-allowed-tools:
-  - create_proposal
-  - list_proposals
-  - get_proposal
-  - send_proposal
-  - delete_proposal
-  - list_templates
-  - create_from_template
-  - request_signature
-  - get_signature_status
-  - list_signatures
-  - get_proposal_views
-  - get_proposal_analytics
-  - list_products
-  - calculate_quote
-  - apply_discount
-  - create_quote
-  - list_sequences
-  - create_sequence
-  - enroll_contact
-  - pause_sequence
-  - get_sequence_stats
-  - send_tracked_email
-  - get_email_engagement
-  - get_availability
-  - create_booking_link
-  - list_scheduled_meetings
-  - get_pipeline_forecast
-  - get_quota_progress
-  - get_win_loss_analysis
-tags: [business, sales, proposals, cpq, sequences, forecasting, revenue]
-references:
-  - references/tool-sequences.md
-  - references/cross-mcp-workflows.md
-  - references/examples.md
+allowed-tools: [create_proposal, list_proposals, get_proposal, send_proposal, delete_proposal, list_templates, create_from_template, request_signature, get_signature_status, list_signatures, get_proposal_views, get_proposal_analytics, list_products, calculate_quote, apply_discount, create_quote, list_sequences, create_sequence, enroll_contact, pause_sequence, get_sequence_stats, send_tracked_email, get_email_engagement, get_availability, create_booking_link, list_scheduled_meetings, get_pipeline_forecast, get_quota_progress, get_win_loss_analysis]
 metadata:
   author: Zavora AI
   mcp-server: mcp-sales
